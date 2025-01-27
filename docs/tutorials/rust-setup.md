@@ -91,7 +91,7 @@ Install the Dev Containers extension for VS Code.
 Create a `.devcontainer` directory in the root of your project with the following file inside of this "hidden" configuration directory: <br>
 `.devcontainer/devcontainer.json`
 
-!!! "Note on `.devcontainer/devcontainer.json`"
+!!! note "Note on `.devcontainer/devcontainer.json`"
     This file defines the configuration for your development environment.
 
 
