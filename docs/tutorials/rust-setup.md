@@ -7,7 +7,7 @@
 ## Prerequisites
 Before you begin, make sure you have:
 
-* **A GitHib account:** Create one [here](https://github.com/signup), if you haven't
+* **A GitHub account:** Create one [here](https://github.com/signup), if you haven't
 
 * **Installed Git**: Install it [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), if you haven't
 
@@ -76,14 +76,14 @@ Put your GitHub username in place of `<your-username>`.
 git push --set-upstream origin main
 ```
 ??? Note "What does the --set-upstream flag do?"
-    `git push --set-upstream origin main` pushes the main branch to the remote repository origin and then sets up the main branch to track the remote branch. This is important so that future pushes and pulls can be done without specifying the branch name, you can just write `git push origin` when working on your local main branch. You can shorten this flag to `-u`.
+    `git push --set-upstream origin main` pushes the main branch to the remote repository origin and then sets up the main branch to track the remote branch. This allows future pushes and pulls without specifying the branch name. You can simply use `git push origin`. You can shorten this flag to `-u`.
 (4) To see your commit in your remote, refresh your GitHub repository in your web browser. To see more information about your commit, including the commit ID, put `git log` in your terminal.
 
 ## Part 2: Setting Up Your Development Environement
 ### What is a Development (Dev) Container and why use it?
 A Dev Container creates a coding environment with all the programming languages, dependencies, libraries, softwares, and tools you need for your project without downloading them each individually on your computer. Dev containers simplify onboarding and make set up consistent so that teammates don't run into nearly as many version errors or bugs in the code.
 
-Starting the dev container runs the `requirements.txt` file with all the necessary depenencies, effectively allowing you to skip other installation steps.
+Starting the dev container runs the `requirements.txt` file with all the necessary dependencies, effectively allowing you to skip other installation steps.
 
 ### Step 1. Add Development Container Configuration
 In VS Code, open the `comp423-EX00 directory` you made in part 1. You can do this by clicking file `File` the selecting `Open Folder`.
